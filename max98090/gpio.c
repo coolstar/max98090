@@ -34,7 +34,6 @@ NTSTATUS Status indicating success or failure
 	WDF_OBJECT_ATTRIBUTES Attributes;
 	WDFREQUEST IoctlRequest;
 	WDFMEMORY WdfMemory;
-	WDF_MEMORY_DESCRIPTOR memoryDescriptor;
 	WDF_OBJECT_ATTRIBUTES RequestAttributes;
 	WDF_REQUEST_SEND_OPTIONS SendOptions;
 	NTSTATUS status;

@@ -18,14 +18,12 @@ ClassGuid   = {4d36e96c-e325-11ce-bfc1-08002be10318}
 Provider    = CoolStar
 DriverVer   = 06/21/2006,6.1.7779.2
 CatalogFile = max98090.cat
+PnpLockdown = 1
 
 [DestinationDirs]
 DefaultDestDir = 12
 
 ; ================= Class section =====================
-
-[ClassInstall32]
-AddReg=Max98090_RegistryAdd
 
 [SourceDisksNames]
 1 = %DiskId1%,,,""
